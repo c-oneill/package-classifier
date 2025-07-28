@@ -54,5 +54,11 @@ Dimensions: (1, 151, 1), Mass: 22, Category: REJECTED
 Dimensions: (100, 120, 100), Mass: 22, Category: REJECTED
 ```
 
+## Testing
+
+```bash
+python3 -m unittest test_package_classifier.py
+```
+
 ## Disclosure
 I used OpenAI’s ChatGPT to assist with structuring, documenting, and reviewing parts of this script. All logic, testing, and final implementation decisions are my own.
